@@ -1,0 +1,239 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "firstName",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "lastName",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "contactNumber",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "mailID",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "dateOfBirth",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "residentAddress",
+				"type": "string"
+			}
+		],
+		"name": "addAccount",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "enterSkill",
+				"type": "string"
+			}
+		],
+		"name": "addSkill",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "changeStatus",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"inputs": [],
+		"name": "numberOfRegistrations",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"name": "numberOfSkills",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "owner",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "skills",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "status",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"name": "userDataExists",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"name": "userDataIndex",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "userDataList",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "user_address",
+				"type": "address"
+			},
+			{
+				"internalType": "string",
+				"name": "first_name",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "last_name",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "contact_number",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "mail_id",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "DOB",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "resident_address",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "registeration_date",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]

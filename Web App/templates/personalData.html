@@ -1,0 +1,28 @@
+<html>
+    <body>
+        <h1>Transaction Reciept</h1>    
+        <h1>.............................</h1>
+        <p>User Account : {{publicKey}}</p>
+        <p>Balance Remaining : {{balance_remaining}}</p>
+        <h1>.............................</h1>
+        <p>Name : {{firstName}} {{lastName}}</p>
+        <p>Contact No : {{contactNumber}}</p>
+        <p>Mail ID : {{mailID}}</p>
+        <p>DOB : {{DOB}}</p>
+        <p>Address : {{residentAddress}}</p>
+        <p>Skills : {% for skill in skillList %}{{skill}}, {% endfor %}</p>
+        <h1>.............................</h1>
+        
+        {% for txn in txn_hashes %}
+        <p>Transaction Hash : {{txn}}</p>
+        {% endfor %}
+
+        {% if status == 0 %}
+        <p>Status : Failed or Incomplete!</p>
+        {% else %}
+        <p>Status : Successfull!</p>
+        {% endif %}
+        <h1>.............................</h1>
+        <button type="button" onclick="location.href='/homePage'" >Go to home page</button>
+    </body>
+</html>
